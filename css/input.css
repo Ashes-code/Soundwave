@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.screen{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px){
+  .screen-sm{
+    max-width: 480px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+}
+
+
+body{
+  font-family: "Titillium Web", sans-serif;
+}
+
+.soundwave {
+  background: linear-gradient(to right, #1A61A5 0%, #AF3C81 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.discover:hover{
+  background: linear-gradient(to right, #1A61A5 0%, #AF3C81 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.join:hover{
+  background: linear-gradient(to right, #1A61A5 0%, #AF3C81 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feeltxt{
+  background: linear-gradient(to bottom, #1A61A5, #AF3C81 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.joinbtn{
+  background: linear-gradient(to right, #1A61A5 0%, #AF3C81 100%);
+}
+.about:hover{
+  background: linear-gradient(to bottom, #1A61A5, #AF3C81 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact:hover{
+  background: linear-gradient(to bottom, #1A61A5, #AF3C81 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.twitter:hover{
+  background: linear-gradient(to bottom, #1A61A5, #AF3C81 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.facebook:hover{
+  background: linear-gradient(to bottom, #1A61A5, #AF3C81 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
